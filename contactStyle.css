@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex: 1;
+
+}
+
+.profile{
+    /* display: flex; */
+    /* flex-direction: row; */
+    background: #ededed;
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.contacts{
+    color: white;
+}
+.search{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+input {
+    width: 100%;
+    background-color: #ededed;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+ .row .name{
+    color: black;
+    display: inline;
+}
+.details{
+    border-top: 0.5px solid gainsboro;
+}
+
+.contacts img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding:10px;
+    display: inline;
+}
